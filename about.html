@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>About</title>
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+  	  
+    <header>
+      <button @click="show = !show">
+        <i class="ion-android-menu"></i>
+      </button>
+      <div id="logo">
+        About
+        <i class="ion-fork-repo"></i>
+      </div>
+    </header>
+
+    <aside v-show="show" transition="slide">
+        <ul>
+       <div class="photo">
+            <img src="images/lg.jpg">
+        </div>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Telegram</a></li>
+          <li>three</li>
+        </ul>
+    </aside>
+
+  </div>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>>
+</body>
+</html>
