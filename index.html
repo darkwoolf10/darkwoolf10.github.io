@@ -1,42 +1,142 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Pasha Fud'ko</title>
-  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My portfolio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div id="app">
-  	  
-    <header>
-      <button @click="show = !show">
-        <i class="ion-navicon-round"></i>
-      </button>
-      <div id="logo">
-        My portfolio
-        <i class="ion-social-tux"></i>
-      </div>
-    </header>
-
-    <aside v-show="show" transition="slide">
-        <ul>
-           <div class="photo">
-                <a href="index.html">
-                    <img src="images/space-6.jpg" alt="Main page">
-                </a>
-            </div>
-          <a href="index.html"><li><i class="ion-ios-home">Main page</i></li></a>
-          <a href="about.html"><li><i class="ion-beer">About</i></li></a>
-          <a href="#"><li><i class="ion-social-github">Github</i></li></a>
-          
-          <a href="#"><li><i class="ion-paper-airplane">Telegram</i></li></a>
-          <a href="#"><li><i class="ion-social-skype">Skype</i></li></a>
-        </ul>
-    </aside>
-
-  </div>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">My portfolio</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="/index.html">Home</a></li>
+					<li><a href="/about.html">About</a></li>
+					<li><a href="/works.html">Works</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="headerwrap">
+		<div class="header-background">
+			<div class="container">
+				<div class="row centered">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h1>Landing writing on bootstrap</h1>
+						<h2>And it's my portfolio</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container w">
+		<div class="row centered">
+			<br><br>
+			<div class="col-lg-4">
+				<i class="fa fa-heart"></i>
+				<h4>My text</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque, ante at maximus commodo, nunc neque porttitor risus, quis placerat metus risus et lorem. Sed tincidunt aliquet orci, quis malesuada nisi scelerisque at. Proin eu finibus mi, ac convallis tellus. Etiam blandit, sem a hendrerit lobortis, lorem leo efficitur nibh, finibus scelerisque enim dui nec mi. Pellentesque eu felis sit amet lacus tempor aliquam eu eget odio. Maecenas finibus finibus ullamcorper. Maecenas at tellus tristique, eleifend ligula id, ultricies dui. Vivamus fringilla consectetur imperdiet.</p>
+			</div>
+			<div class="col-lg-4">
+				<i class="fa fa-laptop"></i>
+				<h4>My text</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque, ante at maximus commodo, nunc neque porttitor risus, quis placerat metus risus et lorem. Sed tincidunt aliquet orci, quis malesuada nisi scelerisque at. Proin eu finibus mi, ac convallis tellus. Etiam blandit, sem a hendrerit lobortis, lorem leo efficitur nibh, finibus scelerisque enim dui nec mi. Pellentesque eu felis sit amet lacus tempor aliquam eu eget odio. Maecenas finibus finibus ullamcorper. Maecenas at tellus tristique, eleifend ligula id, ultricies dui. Vivamus fringilla consectetur imperdiet.</p>
+			</div>
+			<div class="col-lg-4">
+				<i class="fa fa-trophy"></i>
+				<h4>Help</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque, ante at maximus commodo, nunc neque porttitor risus, quis placerat metus risus et lorem. Sed tincidunt aliquet orci, quis malesuada nisi scelerisque at. Proin eu finibus mi, ac convallis tellus. Etiam blandit, sem a hendrerit lobortis, lorem leo efficitur nibh, finibus scelerisque enim dui nec mi. Pellentesque eu felis sit amet lacus tempor aliquam eu eget odio. Maecenas finibus finibus ullamcorper. Maecenas at tellus tristique, eleifend ligula id, ultricies dui. Vivamus fringilla consectetur imperdiet.</p>
+			</div>
+		</div>
+		<br><br>
+	</div>
+	<div id="dg">
+		<div class="container">
+			<div class="row centered">
+				<h4>Technologies that I own</h4>
+				<br>
+				<div class="col-lg-4">
+					<div class="tilt">
+						<a href=""><img src="img/laravel.png" alt="Laravel"></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="tilt">
+						<a href=""><img src="img/yii.ico" alt="Yii2"></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="tilt">
+						<a href=""><img src="img/vuelogo.png" alt="Vue.js"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container wb">
+		<div class="row centered">
+			<br><br>
+			<div class="col-lg-8 col-lg-offset-2">
+			<h4>I write saits on Php and Python</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque, ante at maximus commodo, nunc neque porttitor risus, quis placerat metus risus et lorem. Sed tincidunt aliquet orci, quis malesuada nisi scelerisque at. Proin eu finibus mi, ac convallis tellus. Etiam blandit, sem a hendrerit lobortis, lorem leo efficitur nibh, finibus scelerisque enim dui nec mi.</p>
+			<p><br><br></p>
+			</div>
+			<div class="col-lg-10 col-lg-offset-1">
+				<img src="img/munter.png" alt="" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	<div id="lg">
+		<div class="container">
+			<div class="row centered">
+				<h4>Partners</h4>
+				<div class="col-lg-2 col-lg-offset-1">
+					<img src="img/" alt="">
+				</div>
+				<div class="col-lg-2">
+					<img src="img/" alt="">
+				</div>
+				<div class="col-lg-2">
+					<img src="img/" alt="">
+				</div>
+				<div class="col-lg-2">
+					<img src="img/" alt="">
+				</div>
+				<div class="col-lg-2">
+					<img src="img/" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footerWrap">
+		<div class="row centered">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h4>Development of sites and applications</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque, ante at maximus commodo, nunc neque porttitor risus, quis placerat metus risus et lorem. Sed tincidunt aliquet orci, quis malesuada nisi scelerisque at. Proin eu finibus mi, ac convallis tellus. Etiam blandit, sem a hendrerit lobortis, lorem leo efficitur nibh, finibus scelerisque enim dui nec mi.</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row centered">
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-vk"></i></a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
