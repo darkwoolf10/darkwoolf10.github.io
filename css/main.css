@@ -5,6 +5,7 @@
 }
 body {
 	background-color: #f2f2f2;
+	overflow-y: hidden;
 	font-family: "Lato";
 	font-weight: 300;
 	font-size: 16px;
