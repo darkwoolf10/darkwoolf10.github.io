@@ -23,25 +23,79 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="feedback.html">Feedback</a></li>
-          <li><a href="works.html">Works</a></li>
+          <li><a href="#">Works</a></li>
         </ul>
       </div>
     </div>
   </div>
 
-  <!-- <div class="headerwrap">
-    <div class="header-background">
-      <div class="container">
-        <div class="row centered">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h1>Landing writing on bootstrap</h1>
-            <h2>And it's my portfolio</h2>
+  <div id="carousel" class="carousel slide">
+    <!-- Индикаторы слайдов-->
+    <ol class="carousel-indicators">
+      <li class="active" data-target="#carousel" data-slide="0"></li>
+      <li data-target="#carousel" data-slide="1"></li>
+      <li data-target="#carousel" data-slide="2"></li>
+      <li data-target="#carousel" data-slide="3"></li>
+    </ol>
+
+    <!--Slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/spring.jpg">
+        <div class="carousel-caption">
+          <h3>First slide</h3>
+          <p>Description of the first slide</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item active">
+          <img src="img/summer.jpg">
+          <div class="carousel-caption">
+            <h3>two slide</h3>
+            <p>Description of the two slide</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item active">
+        <img src="img/autumn.jpg">
+        <div class="carousel-caption">
+          <h3>Three slide</h3>
+          <p>Description of the three slide</p>
+        </div>
+      </div>
+      </div>
+      <div class="item">
+        <div class="item active">
+          <img src="img/winter.jpg">
+          <div class="carousel-caption">
+            <h3>Second slide</h3>
+            <p>Description of the second slide</p>
           </div>
         </div>
       </div>
     </div>
-  </div> -->
+    <!--Стрелики переключения слайдов-->
+    <a href="#carousel"  class="left carousel-control" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#carousel" class="right carousel-control" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
 
-  
+  <!-- <div class="footer">
+    <div class="container">
+      <div class="row centered">
+        <a href="https://twitter.com/woolftreuser"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100008374985802"><i class="fa fa-facebook"></i></a>
+        <a href="https://vk.com/iamiluminate"><i class="fa fa-vk"></i></a>
+      </div>
+    </div>
+  </div> -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+
 </body>
 </html>
