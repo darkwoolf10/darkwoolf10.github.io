@@ -44,8 +44,18 @@
 		<div class="row">
 			<br><br>
 			<div class="col-lg-8 col-lg-offset-2">
-			<p><a href="mailto:woolftreuser@ukr.net">Задавайте вопросы по электронной почте</a></p>
-			<p><br><br></p>
+			<form action="mailto:woolftreuser@ukr.net" method="post">
+				<div class="form-group">
+				  <label for="email">Email address:</label>
+				  <input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+				  <label for="plaintext">My text:</label>
+				  <textarea class="form-control" id="plaintext"></textarea>
+			    </div>
+			    <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+			<br><br><br>
 			</div>
 			<div class="col-lg-10 col-lg-offset-1">
 				<img src="img/munter.png" alt="" class="img-responsive">
