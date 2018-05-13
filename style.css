@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Quicksand');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    background: url(forest2.jpg) no-repeat center center fixed;
+}
+
+#logo {
+    display: none;
+    margin-top: 20%;
+    text-align: center;
+    box-sizing: border-box;
+    color:  #F5F5DC;
+}
+
+.name {
+    font-size: 8rem;
+}
+
+.description {
+    font-size: 2.5rem;
+    padding-left: 500px; 
+    /* color:  #000009; */
+}
